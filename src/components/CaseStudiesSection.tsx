@@ -40,10 +40,10 @@ const CaseStudiesSection = () => {
               <span className="text-xs font-semibold uppercase tracking-wider text-primary mb-2 block">
                 {study.category}
               </span>
-              <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+              <h3 className="text-xl font-bold mb-2 transition-colors text-primary-foreground">
                 {study.title}
               </h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-primary-foreground">
                 {study.metric}
               </p>
             </div>)}
