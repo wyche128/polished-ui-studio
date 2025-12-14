@@ -6,10 +6,8 @@ import CaseStudiesSection from "@/components/CaseStudiesSection";
 import TestimonialSection from "@/components/TestimonialSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen border-0 border-primary">
       <Header />
       <main>
         <HeroSection />
@@ -20,8 +18,6 @@ const Index = () => {
         <ContactSection />
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
